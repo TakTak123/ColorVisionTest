@@ -6,12 +6,18 @@ body {
 .container {
   display: flex;
   flex-wrap: wrap;
+  /* width: 800px;
+  height: 800px; */
+  /* padding:40px 500px; */
+  /* margin-left: auto;
+  margin-right: auto; */
 }
 
 .box {
   width: 100px;
   height: 100px;
   cursor: pointer;
+  /* padding: 8px 8px; */
   margin: 8px auto;
   /* line-align: center; */
   background-color: #d8351b;
@@ -24,4 +30,16 @@ body {
 #main_box {
   width: 120px;
   height: 120px;
+  margin: 8px auto;
+}
+
+button {
+  border-radius: 5px;
+  border-color: white;
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: gray;
+  text-align: center;
+  color: white;
 }
