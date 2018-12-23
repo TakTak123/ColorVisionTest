@@ -1,0 +1,43 @@
+body {
+  background: #e0e0e0;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  margin: 8px auto;
+  /* line-align: center; */
+  background-color: #d8351b;
+  
+}
+
+.box:hover {
+  opacity: 0.8;
+}
+
+
+
+#mainBox {
+  width: 120px;
+  height: 120px;
+}
+/* .container {
+    width: 320px;
+    margin: 30px auto;
+} */
+
+/* #setBtn {
+    color:#fff;
+    background: #00aaff;
+    padding: 7px;
+    box-shadow: 0 4px 0 #0088cc;
+    cursor: pointer;
+
+} */
